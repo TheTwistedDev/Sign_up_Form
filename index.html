@@ -4,28 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign_up_Form</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <main>
         <div class="image_sidebar">
-            <div class="logo">
-
-            </div>
+            <img src="/Sign_up_Form/SideBar.png" alt="">
+            <p>Photo by <a href="https://unsplash.com/@katiemoum" target="_blank">Katie Moum</a> on <a href="https://unsplash.com" target="_blank">UnSplash</a></p>
         </div>
          <div class="regiform">
+            <div class="form_header">
+                <p> This is not a real online service! You know you need something like this in your life to help you realize
+                    your deepest dreams. Sign up <em>now</em> to get started. 
+                </p>
+                <p>
+                    You <em>know</em> you want to.
+                </p>
+            </div>
             <form action="#" method="post">
-                <label for="first_name">First Name: </label>
-                <input type="text" name="first_name" id="first_name">
-                <label for="last_name">Last Name: </label>
-                <input type="text" name="last_name" id="last_name">
-                <label for="user_email">Email Address: <label>
-                <input type="email" name="email" id="user_email">
-                <label for="phone_number">Phone Number:</label>
-                <input type="tel" name="phone_number" id="phone_number">
-                <label for="user_password">Password: </label>
-                <input type="password" name="password" id="user_password">
+                <div class="form_container">
+                    <h1>Let's Do This!</h1>
+                    <div class="formrow1">
+                        <label for="first_name">First Name: </label>
+                        <input type="text" name="first_name" id="first_name">
+                        <label for="last_name">Last Name: </label>
+                        <input type="text" name="last_name" id="last_name">
+                    </div>
+                    <div class="formrow2">
+                        <label for="user_email">Email Address: <label>
+                        <input type="email" name="email" id="user_email">
+                        <label for="phone_number">Phone Number:</label>
+                        <input type="tel" name="phone_number" id="phone_number">
+                    </div>
+                    <div class="formrow3">
+                        <label for="user_password">Password: </label>
+                        <input type="password" name="password" id="user_password">
+                    </div>                        
+                </div>
                 <button type="submit">Create Account</button>
             </form>
          </div>
