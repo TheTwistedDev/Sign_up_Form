@@ -54,17 +54,37 @@ main {
     width: 60vw;
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
-    padding-left: 3vw;
+    gap: 40px;
+    margin-top: 40px;
+    padding-left: 2vw;
     box-shadow: 0 5px 5px -5px #333;
 }
 
-.form_container h1 {
-    padding-bottom: 20px;
+.form_row {
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+}
+
+.form_input {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    gap: 5px;
+    text-transform: uppercase;
+}
+
+input {
+    background-color: #FFFFFF;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
 }
 
 button {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 3vw;
     padding: 20px 60px 20px 60px;
     font-weight: bold;
@@ -74,4 +94,9 @@ button {
     border: 0px;
     border-radius: 10px;
     box-shadow: 4px 4px 8px 2px #d3d2d2;
+}
+
+.login {
+    margin-top: 30px;
+    margin-left: 3vw;
 }
